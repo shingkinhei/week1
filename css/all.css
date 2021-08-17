@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*reset CSS end*/
+body	{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	font-size: 80px;
+}
+
+.wrap   {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.title{
+	border-bottom: 2px solid #000;
+	padding: 40px 0 5px 0;
+	margin-bottom: 10px;
+	display: flex;
+	align-items:center;
+}
+
+.info	{
+	margin-bottom: 30px;
+}
+.propic	{
+	width: 324px;
+	height: 324px;
+}
+
+h2{
+	font-size: 32px;
+	margin-right: 5px;
+}
+
+h3 {
+	font-size: 24px;
+	color:#A00404;
+}
+
+p{
+	line-height: 36px;
+}
+
+.darkBackground	{
+	background-color: #415165;
+	padding-bottom: 40px;
+}
+
+.titleDark{
+	display:flex;
+	justify-content: center;
+	color: #FFFFFF;
+	border-bottom: 2px solid #FFF;
+}
+
+.titleDark h3{
+	color: #FFFFFF;
+}
+
+.skillList{
+	color: #FFFFFF;
+	display:flex;
+	justify-content: center;
+}
+
+.skillList	ul	{
+	border-left: 2px solid #FFF;
+}
+
+.skillList li {
+	line-height: 20px;
+	padding-left: 10px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.workList{
+	border-left: 2px solid #96A9C4;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+
+.workList h4{
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.workList	p	{
+	width: 642px;
+}
+
+.contentList {
+	color: #FFF;
+	text-align: center;
+	line-height: 30px;
+}
+.contentList img{
+	margin: 4px;
+}
+
